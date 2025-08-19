@@ -1,0 +1,53 @@
+# Primary Hypothesis Test
+Script: reciprocals_analysis.py
+Generated: 2025-08-18 19:51:29
+Exit code: 0
+
+STDOUT:
+=== RECIPROCALS HYPOTHESIS TEST ===
+Testing: Do reciprocals pattern with fused determinatives rather than pronouns?
+Strong prior: Cambridge Grammar classifies them as pronouns (85% confidence)
+================================================================================
+
+Loaded 138 linguistic items with 155 features
+Found 6 fused determinatives: ['anybody', 'anyone', 'anything', 'everything', 'somebody', 'someone']
+Found 6 pronouns: ['he', 'him', 'himself', 'she', 'herself', 'themselves']
+Found 2 reciprocals: ['each_other', 'one_another']
+
+Comparison groups:
+- Fused determinatives: 6 items
+- Pronouns: 6 items
+- Reciprocals (test items): 2 items
+
+Running permutation test (1000 permutations)...
+
+==================================================
+RESULTS
+==================================================
+Observed pattern: 1/2 reciprocals closer to fused determinatives
+Proportion preferring fused determinatives: 50.0%
+P-value (permutation test): 0.545
+Mean effect size: 0.009
+Distance between group centroids: 4.684
+
+Individual reciprocal results:
+  each_other:
+    Distance to fused determinatives: 4.311
+    Distance to pronouns: 4.298
+    Closer to fused determinatives: False
+    Effect size: 0.003
+  one_another:
+    Distance to fused determinatives: 4.349
+    Distance to pronouns: 4.413
+    Closer to fused determinatives: True
+    Effect size: 0.014
+
+==================================================
+INTERPRETATION
+==================================================
+Evidence strength: very weak
+Bayesian conclusion: insufficient evidence to overcome strong prior from Cambridge Grammar
+
+Null distribution statistics:
+  Mean under random assignment: 1.0/2
+  Extreme results (0 or 2): 920/1000 (92.0%)

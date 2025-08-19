@@ -1,0 +1,49 @@
+Enhanced PCA Projection of Linguistic Feature Space
+============================================================
+Legend:
+  ● = Reciprocal    ■ = Fused Determinative
+  ▲ = Pronoun       ♦ = Other Determinative
+  · = Other         ※ = Overlap
+
+  0.08 |                                                                                                    
+       |                                                                                                    
+       |                                                                                                    
+       |                                           ▲       ▲       ♦                                        
+       |                                            ▲                                                       
+  0.05 |                                                   ▲                                                
+       |                                                                                                    
+       |                                                                                                    
+       |                                                                ※          ♦                        
+       |                               ♦                   ♦                             ▲                  
+  0.02 |                               ♦            ♦    ♦     ▲■ ※ ※ ▲        ▲                            
+       |                                              ※ ※     ♦   ▲♦♦▲▲  ■   ▲ ▲                            
+       |                       ※      ♦   ♦ ♦♦♦      ▲ ▲    ♦ ■ ■   ▲  ♦ ※     ▲                 ▲          
+       |                                       ♦   ♦♦ ●  ♦    ※   ♦ ▲   ▲▲          ♦   ▲ ▲    ※            
+       |                           ▲                 ※    ▲  ■    ♦♦▲ ♦     ■  ▲      ♦                     
+ -0.01 |                                                                                                    
+       |                                 ♦           ▲ ▲   ※   ♦♦       ※▲                    ▲   ▲         
+       |                            ♦                             ▲  ▲♦    ♦            ▲      ▲            
+       |                                              ▲     ♦               ♦▲ ♦    ▲    ▲ ▲                
+       |        ▲                         ♦       ♦         ♦♦          ▲ ▲♦                                
+ -0.03 |                                                                 ▲             ♦  ▲ ※               
+       |                                      ♦ ▲                            ※                              
+       |                                                     ♦               ▲  ♦▲                          
+       |                                                                                                    
+       |                                               ♦    ♦                   ♦                           
+ -0.06 |                                           ♦            ♦                                           
+       |                                          ♦                                                         
+       |                                                          ♦♦                                        
+       |                                                                                                    
+       |                                                                                                    
+       ----------------------------------------------------------------------------------------------------
+        -2.78               -1.82               -0.87                0.09                1.04              
+
+Key Items:
+  each_other (Reciprocal): grid position (45, 14)
+  one_another (Reciprocal): grid position (46, 13)
+  anybody (Fused Det): grid position (56, 12)
+  anyone (Fused Det): grid position (56, 10)
+  anything (Fused Det): grid position (65, 11)
+  everything (Fused Det): grid position (68, 14)
+  somebody (Fused Det): grid position (53, 14)
+  someone (Fused Det): grid position (54, 12)

@@ -1,0 +1,171 @@
+# Feature Type Analysis
+Script: corrected_feature_analysis.py
+Generated: 2025-08-18 19:51:37
+Exit code: 0
+
+STDOUT:
+=== CORRECTED FEATURE ANALYSIS ===
+Understanding reciprocal patterns across linguistic feature types
+============================================================
+Reciprocals: 2
+Fused determinatives: 6
+Regular pronouns: 63
+
+Feature categories:
+  Morphological: 36
+  Semantic: 69
+  Syntactic: 50
+
+==================================================
+MORPHOLOGICAL FEATURES
+==================================================
+
+each_other:
+  Distance to fused determinatives: 1.951
+  Distance to pronouns: 1.800
+  Closer to: pronouns
+  Difference: 0.151
+
+one_another:
+  Distance to fused determinatives: 1.772
+  Distance to pronouns: 1.800
+  Closer to: fused determinatives
+  Difference: 0.028
+
+Example morphological features:
+  another
+    Reciprocals: 0.500
+    Fused_Dets: 0.000
+    Pronouns: 0.000
+  any
+    Reciprocals: 0.000
+    Fused_Dets: 1.000
+    Pronouns: 0.000
+  body
+    Reciprocals: 0.000
+    Fused_Dets: 0.333
+    Pronouns: 0.000
+  each
+    Reciprocals: 0.500
+    Fused_Dets: 0.000
+    Pronouns: 0.000
+  each_other
+    Reciprocals: 0.500
+    Fused_Dets: 0.000
+    Pronouns: 0.000
+
+==================================================
+SEMANTIC FEATURES
+==================================================
+
+each_other:
+  Distance to fused determinatives: 3.023
+  Distance to pronouns: 2.720
+  Closer to: pronouns
+  Difference: 0.303
+
+one_another:
+  Distance to fused determinatives: 3.184
+  Distance to pronouns: 2.898
+  Closer to: pronouns
+  Difference: 0.286
+
+Example semantic features:
+  a
+    Reciprocals: 0.500
+    Fused_Dets: 0.000
+    Pronouns: 0.000
+  certain
+    Reciprocals: 0.000
+    Fused_Dets: 0.000
+    Pronouns: 0.000
+  day
+    Reciprocals: 0.000
+    Fused_Dets: 0.000
+    Pronouns: 0.000
+  ever
+    Reciprocals: 0.000
+    Fused_Dets: 0.000
+    Pronouns: 0.000
+  every
+    Reciprocals: 0.000
+    Fused_Dets: 0.000
+    Pronouns: 0.000
+
+==================================================
+SYNTACTIC FEATURES
+==================================================
+
+each_other:
+  Distance to fused determinatives: 2.375
+  Distance to pronouns: 3.097
+  Closer to: fused determinatives
+  Difference: 0.722
+
+one_another:
+  Distance to fused determinatives: 2.375
+  Distance to pronouns: 3.097
+  Closer to: fused determinatives
+  Difference: 0.722
+
+Example syntactic features:
+  genitive_case
+    Reciprocals: 0.000
+    Fused_Dets: 0.000
+    Pronouns: 0.000
+  accusative_case
+    Reciprocals: 0.000
+    Fused_Dets: 0.000
+    Pronouns: 0.333
+  nominative_case
+    Reciprocals: 0.000
+    Fused_Dets: 0.000
+    Pronouns: 0.333
+  inflects_for_case
+    Reciprocals: 1.000
+    Fused_Dets: 1.000
+    Pronouns: 1.000
+  paradigm_has_distinct_acc_form
+    Reciprocals: 0.000
+    Fused_Dets: 0.000
+    Pronouns: 1.000
+
+============================================================
+KEY SYNTACTIC FEATURES FOR RECIPROCAL HYPOTHESIS
+============================================================
+
+functions_as_fused_determiner_head:
+  Reciprocals: [0.0, 0.0] (mean: 0.000)
+  Fused determinatives: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0] (mean: 1.000)
+  Regular pronouns: mean: 0.000
+  → Reciprocals closer to PRONOUNS
+
+appears_in_subject:
+  Reciprocals: [0.0, 0.0] (mean: 0.000)
+  Fused determinatives: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0] (mean: 1.000)
+  Regular pronouns: mean: 0.683
+  → Reciprocals closer to PRONOUNS
+
+inflects_for_case:
+  Reciprocals: [1.0, 1.0] (mean: 1.000)
+  Fused determinatives: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0] (mean: 1.000)
+  Regular pronouns: mean: 0.937
+  → Reciprocals closer to FUSED DETERMINATIVES
+
+paradigm_has_distinct_acc_form:
+  Reciprocals: [0.0, 0.0] (mean: 0.000)
+  Fused determinatives: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0] (mean: 0.000)
+  Regular pronouns: mean: 0.619
+  → Reciprocals closer to FUSED DETERMINATIVES
+
+functions_as_predicative_complement:
+  Reciprocals: [1.0, 1.0] (mean: 1.000)
+  Fused determinatives: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0] (mean: 1.000)
+  Regular pronouns: mean: 0.667
+  → Reciprocals closer to FUSED DETERMINATIVES
+
+accepts_genitive_apstrophe_s:
+  Reciprocals: [1.0, 1.0] (mean: 1.000)
+  Fused determinatives: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0] (mean: 1.000)
+  Regular pronouns: mean: 0.143
+  → Reciprocals closer to FUSED DETERMINATIVES

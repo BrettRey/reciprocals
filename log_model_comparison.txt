@@ -1,0 +1,64 @@
+# Post-hoc Model Comparison
+Script: model_comparison.py
+Generated: 2025-08-18 19:51:37
+Exit code: 0
+
+STDOUT:
+=== MODEL COMPARISON ANALYSIS ===
+POST-HOC ANALYSIS: Testing reciprocal classification schemes
+FORKING PATHS: Documented in analysis_preregistration.md
+======================================================================
+
+Loaded 136 non-reciprocal items and 2 reciprocals
+Features: 155 linguistic features
+
+Training data: 73 determinatives, 63 pronouns
+
+Cross-validation performance on non-reciprocal data:
+  Mean accuracy: 0.898 ± 0.126
+  Mean log-likelihood: -0.283 ± 0.208
+
+Testing reciprocal classification schemes...
+
+==================================================
+MODEL COMPARISON RESULTS
+==================================================
+
+MODEL A: Reciprocals as DETERMINATIVES
+  Overall accuracy: 0.978
+  Log-likelihood: -0.111
+  N samples: 138
+
+MODEL B: Reciprocals as PRONOUNS (current)
+  Overall accuracy: 0.993
+  Log-likelihood: -0.099
+  N samples: 138
+
+MODEL COMPARISON:
+  Accuracy difference (A - B): -0.0145
+  Log-likelihood difference (A - B): -0.0124
+  BETTER FIT: Model B (reciprocals as pronouns)
+
+==================================================
+INDIVIDUAL RECIPROCAL PREDICTIONS
+==================================================
+(Based on classifier trained on non-reciprocal data)
+
+each_other:
+  Probability of being pronoun: 0.713
+  Probability of being determinative: 0.287
+  Predicted category: pronoun
+
+one_another:
+  Probability of being pronoun: 0.691
+  Probability of being determinative: 0.309
+  Predicted category: pronoun
+
+==================================================
+INTERPRETATION
+==================================================
+Model fit interpretation: Model B (pronouns) fits better - supports traditional classification
+
+CAVEAT: This is post-hoc analysis after seeing clustering results.
+Results should be interpreted cautiously due to multiple testing.
+Consider this exploratory evidence, not confirmatory.

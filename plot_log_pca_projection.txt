@@ -1,0 +1,32 @@
+# PCA_Projection
+Generated: 2025-08-18
+Analysis: Reciprocals hypothesis testing
+
+
+PCA Projection of Linguistic Feature Space
+==========================================
+Legend: R=Reciprocal, F=Fused_Det, P=Pronoun, D=Other_Det, .=Other
+
+                                                                                
+                                                                                
+                                                                        D       
+                                                                   DF           
+                                                              D*DF              
+                                                          D***D                 
+                                                      ****                      
+                                                 PD**P                          
+                                             *****                              
+                                         P****                                  
+                                     * DP*                                      
+                                 DDP*D                                          
+                             ** *P                                              
+                         *D *                                                   
+                    PP  P                                                       
+                 ****                                                           
+              P                                                                 
+            P                                                                   
+      *P                                                                        
+                                                                                
+
+X-axis: -1.32 to 1.15
+Y-axis: -1.32 to 1.15

@@ -1,0 +1,51 @@
+Distance Matrix: Key Linguistic Items
+==================================================
+Euclidean distances in 155-dimensional feature space
+(Lower numbers = more similar)
+
+Item                anybody      anyone    anything  everything    somebody     someone  each_other  one_anothe          he         him     himself         she
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+anybody                0.00        1.41        3.32        4.69        3.16        3.46        5.10        5.20        5.66        6.00        5.74        5.74
+anyone                 1.41        0.00        3.32        4.69        3.46        3.16        5.10        5.00        5.66        6.00        5.74        5.74
+anything               3.32        3.32        0.00        3.61        4.58        4.58        5.39        5.48        6.08        6.08        6.16        6.16
+everything             4.69        4.69        3.61        0.00        4.69        4.69        4.69        4.80        6.00        6.16        6.08        6.08
+somebody               3.16        3.46        4.58        4.69        0.00        1.41        4.69        4.80        5.29        5.66        5.39        5.39
+someone                3.46        3.16        4.58        4.69        1.41        0.00        4.69        4.58        5.29        5.66        5.39        5.39
+each_other             5.10        5.10        5.39        4.69        4.69        4.69        0.00        2.24        5.10        5.29        4.80        5.20
+one_another            5.20        5.00        5.48        4.80        4.80        4.58        2.24        0.00        5.20        5.39        4.90        5.29
+he                     5.66        5.66        6.08        6.00        5.29        5.29        5.10        5.20        0.00        3.46        3.87        1.73
+him                    6.00        6.00        6.08        6.16        5.66        5.66        5.29        5.39        3.46        0.00        3.61        3.87
+himself                5.74        5.74        6.16        6.08        5.39        5.39        4.80        4.90        3.87        3.61        0.00        4.24
+she                    5.74        5.74        6.16        6.08        5.39        5.39        5.20        5.29        1.73        3.87        4.24        0.00
+
+Analysis:
+
+each_other distances:
+  to anybody: 5.099
+  to anyone: 5.099
+  to anything: 5.385
+  to everything: 4.690
+  to somebody: 4.690
+  to someone: 4.690
+  to he: 5.099
+  to him: 5.292
+  to himself: 4.796
+  to she: 5.196
+  Average to fused determinatives: 4.942
+  Average to pronouns: 5.096
+  Closer to: fused determinatives
+
+one_another distances:
+  to anybody: 5.196
+  to anyone: 5.000
+  to anything: 5.477
+  to everything: 4.796
+  to somebody: 4.796
+  to someone: 4.583
+  to he: 5.196
+  to him: 5.385
+  to himself: 4.899
+  to she: 5.292
+  Average to fused determinatives: 4.975
+  Average to pronouns: 5.193
+  Closer to: fused determinatives

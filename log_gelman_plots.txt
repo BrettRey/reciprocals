@@ -1,0 +1,127 @@
+# Exploratory Data Visualization
+Script: gelman_plots.py
+Generated: 2025-08-18 19:51:37
+Exit code: 0
+
+STDOUT:
+=== GELMAN-STYLE EXPLORATORY DATA ANALYSIS ===
+Focus: Understanding the data structure, not confirming hypotheses
+Motto: 'Make plots. Make more plots. Make different plots.'
+======================================================================
+
+Loaded 138 items with 155 features
+
+Group sizes:
+  fused_determinative: 6
+  other_determinative: 67
+  pronoun: 63
+  reciprocal: 2
+
+============================================================
+1. DIMENSIONALITY REDUCTION PLOT
+='*60
+Gelman: 'Let's see the overall structure in 2D'
+
+PCA Projection of Linguistic Feature Space
+==========================================
+Legend: R=Reciprocal, F=Fused_Det, P=Pronoun, D=Other_Det, .=Other
+
+                                                                                
+                                                                                
+                                                                        D       
+                                                                   DF           
+                                                              D*DF              
+                                                          D***D                 
+                                                      ****                      
+                                                 PD**P                          
+                                             *****                              
+                                         P****                                  
+                                     * DP*                                      
+                                 DDP*D                                          
+                             ** *P                                              
+                         *D *                                                   
+                    PP  P                                                       
+                 ****                                                           
+              P                                                                 
+            P                                                                   
+      *P                                                                        
+                                                                                
+
+X-axis: -1.32 to 1.15
+Y-axis: -1.32 to 1.15
+
+📊 Plot saved to: plot_log_pca_projection.txt
+
+============================================================
+FEATURE DISTRIBUTION ANALYSIS
+============================================================
+Gelman: 'Let's understand what these features actually measure'
+
+Top discriminating features (by between-group variance):
+
+1. each_other (variance: 0.047)
+   other_determinative: 0.000 (n=67)
+   fused_determinative: 0.000 (n=6)
+   reciprocal: 0.500 (n=2)
+   pronoun: 0.000 (n=63)
+
+2. each (variance: 0.046)
+   other_determinative: 0.015 (n=67)
+   fused_determinative: 0.000 (n=6)
+   reciprocal: 0.500 (n=2)
+   pronoun: 0.000 (n=63)
+
+3. another (variance: 0.045)
+   other_determinative: 0.030 (n=67)
+   fused_determinative: 0.000 (n=6)
+   reciprocal: 0.500 (n=2)
+   pronoun: 0.000 (n=63)
+
+4. any (variance: 0.045)
+   other_determinative: 0.030 (n=67)
+   fused_determinative: 0.500 (n=6)
+   reciprocal: 0.000 (n=2)
+   pronoun: 0.000 (n=63)
+
+5. a (variance: 0.042)
+   other_determinative: 0.104 (n=67)
+   fused_determinative: 0.000 (n=6)
+   reciprocal: 0.500 (n=2)
+   pronoun: 0.000 (n=63)
+
+============================================================
+RECIPROCAL DETAILED COMPARISON
+============================================================
+Gelman: 'What exactly makes reciprocals different (or not)?'
+
+Reciprocals found: ['each_other', 'one_another']
+Fused determinatives: ['anybody', 'anyone', 'anything', 'everything', 'somebody', 'someone']
+Pronouns: 63 items
+
+--- each_other ---
+Nearest neighbors:
+  1. one_another (reciprocal) - distance: 2.236
+  2. tonight (pronoun) - distance: 4.243
+  3. today (pronoun) - distance: 4.359
+  4. themselves (pronoun) - distance: 4.583
+  5. everything (fused_determinative) - distance: 4.690
+Top 10 neighbors by group: {'reciprocal': 1, 'pronoun': 6, 'fused_determinative': 3}
+
+--- one_another ---
+Nearest neighbors:
+  1. each_other (reciprocal) - distance: 2.236
+  2. tonight (pronoun) - distance: 4.359
+  3. today (pronoun) - distance: 4.472
+  4. someone (fused_determinative) - distance: 4.583
+  5. oneself (pronoun) - distance: 4.690
+Top 10 neighbors by group: {'reciprocal': 1, 'pronoun': 5, 'fused_determinative': 3, 'other_determinative': 1}
+
+============================================================
+GELMAN'S SUMMARY
+============================================================
+Key insights from exploratory analysis:
+1. Look at the PCA plot - do you see natural clusters?
+2. Check the feature distributions - what drives the differences?
+3. Examine reciprocal neighbors - are they really intermediate?
+
+Gelman: 'The data should tell a story. What story does this tell?'
